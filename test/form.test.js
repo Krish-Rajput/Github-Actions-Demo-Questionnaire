@@ -10,7 +10,7 @@ describe('HTML Feedback Form Validation', () => {
 
   beforeEach(() => {
     // Read the HTML file and load it into the DOM
-    const html = fs.readFileSync(path.resolve(__dirname, '../index.html'), 'utf8');
+    const html = fs.readFileSync(path.resolve(__dirname, '../src/index.html'), 'utf8');
     document.documentElement.innerHTML = html.toString();
   });
 
