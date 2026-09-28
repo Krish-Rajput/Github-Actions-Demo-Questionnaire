@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Feedback Form-Krish </title>
+</head>
+<body>
+
+  <h2>Feedback Form</h2>
+
+  <form action="#" method="post">
+    <div>
+      <label for="fullname">Full Name:</label><br>
+      <input type="text" id="fullname" name="fullname" required>
+    </div>
+    <br>
+
+    <div>
+      <label for="email">Email Address:</label><br>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <br>
+
+    <div>
+      <label for="type">Feedback Type:</label><br>
+      <select id="type" name="type">
+        <option value="general">General Feedback</option>
+        <option value="bug">Bug Report</option>
+        <option value="feature">Feature Request</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+    <br>
+
+    <div>
+      <label>Overall Experience:</label><br>
+      <input type="radio" id="rate1" name="rating" value="1">
+      <label for="rate1">Poor</label>
+      
+      <input type="radio" id="rate2" name="rating" value="2">
+      <label for="rate2">Fair</label>
+      
+      <input type="radio" id="rate3" name="rating" value="3">
+      <label for="rate3">Good</label>
+      
+      <input type="radio" id="rate4" name="rating" value="4">
+      <label for="rate4">Excellent</label>
+    </div>
+    <br>
+
+    <div>
+      <label for="comments">Your Feedback:</label><br>
+      <textarea id="comments" name="comments" rows="5" cols="40" required></textarea>
+    </div>
+    <br>
+
+    <div>
+      <input type="submit" value="Submit Feedback">
+    </div>
+  </form>
+
+</body>
+</html>
